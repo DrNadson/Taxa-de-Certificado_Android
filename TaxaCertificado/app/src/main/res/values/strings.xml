@@ -1,0 +1,38 @@
+<resources>
+    <!--Home-->
+    <string name="app_name">Taxa Certificado</string>
+    <string name="bem_vindo">Bem Vindo ao Cálculo da Taxa \npara o seu Certificado.</string>
+    <string name="escolha_opcao">Escolha o tipo do seu Certificado:</string>
+
+    <!--Tipos de Certificados-->
+    <string name="C_A">Certificado de Aprovação (Habite-se)</string>
+    <string name="C_AP">Certificado de Aprovação de Projeto</string>
+    <string name="action_settings">Configurações</string>
+
+    <!--Classificação das Edificações, página CA-->
+    <string name="escolha_classificacao">Qual a classificação da sua edificação?</string>
+
+    <!--Área Total Construída-->
+
+    <string name="atc">Área Total Construída em (m²)</string>
+
+
+    <!--Botões do APP-->
+
+    <string name="btn_CA">Certificado de Aprovação (Habite-se)</string>
+    <string name="btn_CAP">Certificado de Aprovação de Projeto</string>
+    <string name="btn_classif_residencial">Residencial Unifamiliar (casa comum)</string>
+    <string name="btn_classif_outra">Outra (bar, condomínio)</string>
+    <string name="calcular">Calcular</string>
+    <string name="btn_continuar">Continuar</string>
+    <string name="pesquisar">pesquisar</string>
+
+    <string name="title_activity_home">Taxa Certificado</string>
+    <string name="btn_home">CONTINUAR</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="descricao_img_ca">imagem do certificado de aprovação</string>
+
+
+</resources>

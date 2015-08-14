@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    tools:context="com.example.nadson.taxacertificado.Home">
+
+
+    <ImageView
+        android:layout_width="390dp"
+        android:layout_height="275dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/taxa_home_transp"
+        android:id="@+id/imageView" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/home_orange_ui" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_margin="8dp">
+
+           <ImageButton
+               android:layout_width="62dp"
+               android:layout_height="62dp"
+               android:background="@drawable/btn_back_home_ui"
+               android:text="@string/btn_continuar"
+               android:layout_alignParentBottom="true"
+               android:layout_alignParentEnd="true"/>
+
+                <RelativeLayout
+                    android:id="@+id/layout_home"
+                    android:layout_width="62dp"
+                    android:layout_height="62dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                   >
+
+                <ImageButton
+                    android:id="@+id/btn_home"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:background="@drawable/ic_arrow_forward_white_24dp"
+                    android:text="@string/btn_continuar"
+                    android:layout_centerInParent="true"
+                    />
+                </RelativeLayout>
+
+        </RelativeLayout>
+
+
+</RelativeLayout>

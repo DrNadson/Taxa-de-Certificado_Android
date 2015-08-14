@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/certificado_ca"
+        android:layout_weight="0.99"
+        android:layout_gravity="center_horizontal"
+        android:gravity="top"
+        android:src="@drawable/certificado_ca"
+        android:contentDescription="@string/descricao_img_ca" />
+
+
+    <TextView
+        android:text="@string/atc"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:layout_gravity="top"
+        android:layout_marginTop="8dp"
+        android:fontFamily="roboto"
+        android:id="@+id/valoratc"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:inputType="numberDecimal"
+        android:id="@+id/edit_atc" />
+
+    <TextView
+        android:text="@string/escolha_classificacao"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:layout_gravity="center_vertical"
+        android:gravity="top"
+        android:fontFamily="roboto"
+        android:layout_marginTop="20dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="top"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:layout_margin="6dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.9"
+            android:layout_gravity="top"
+            android:layout_marginTop="10dp"
+            android:text="@string/btn_classif_residencial"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:fontFamily="roboto"
+            android:id="@+id/radioButton3"
+            android:onClick="onRadioButtonResidencial"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.9"
+            android:layout_gravity="top"
+            android:layout_marginTop="10dp"
+            android:text="@string/btn_classif_outra"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:fontFamily="roboto"
+            android:id="@+id/radioButton4"
+            android:onClick="onRadioButtonOutra"/>
+
+    </RadioGroup>
+
+</LinearLayout>
